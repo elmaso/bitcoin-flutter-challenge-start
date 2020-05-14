@@ -4,6 +4,7 @@ import '../coin_data.dart';
 import 'dart:io' show Platform;
 
 class PriceScreen extends StatefulWidget {
+  static const String pageId = 'price_screen';
   @override
   _PriceScreenState createState() => _PriceScreenState();
 }
